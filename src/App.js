@@ -12,10 +12,9 @@ export default function App() {
     return (
         <Routes>
             {/*<UserContext.Provider value='pascal'>*/}
-                <Route path={"/"} element={<Login/>}/>
+                <Route path={"/"} element={<Main/>}/>
                 <Route path={"/login"} element={<Login/>}/>
                 <Route path={"/register"} element={<Register/>}/>
-                <Route path={"/home"} element={<Main/>}/>
             {/*</UserContext.Provider>*/}
         </Routes>
     );

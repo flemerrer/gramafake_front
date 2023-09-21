@@ -50,7 +50,6 @@ export default function Main() {
         </>
     );
 }
-
 function PostCard({post}) {
 
     const [comments, setComments] = useState([]);
